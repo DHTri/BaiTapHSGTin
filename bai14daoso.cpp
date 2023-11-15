@@ -7,7 +7,7 @@ int main(){
     while(n > 0){
         sum = n % 10;
         sum2 = sum2 * 10 + sum ;
-        n = n / 10;
+        n /=10;
     }
     cout << sum2;
 }
